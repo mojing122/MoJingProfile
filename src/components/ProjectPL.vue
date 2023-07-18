@@ -4,18 +4,31 @@
       <div
         class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2"
       >
+        <div class="place-self-end h-full">
+          <img
+            src="/src/assets/image/homePage/MojingProfile.jpg"
+            alt="Product screenshot"
+            class="w-[30rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0 hidden lg:block mr-2"
+            width="2432"
+            height="1442"
+          />
+        </div>
+
         <div class="lg:pr-8 lg:pt-4">
           <div class="lg:max-w-lg">
             <h2 class="text-base font-semibold leading-7 text-indigo-600">
-              开发项目
+              科研项目
             </h2>
             <p
               class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl"
             >
-              个人主页（本站）
+              基于提示学习的推荐算法
             </p>
             <p class="mt-6 text-lg leading-8 text-gray-600">
-              基于<b> Vue3 </b>和<b> tailwindcss </b>开发
+              随着互联网的发展，个性化推荐算法被广泛应用于解决当前的信息过载问题，现有的方法在面对数据稀疏和冷启动问题上仍存在很大挑战。
+              近年来，由于预训练语言模型的高准确性和高通用性的优点，目前已被广泛应用于推荐领域。
+              然而，传统的预训练语言模型需要适应下游任务进行微调，模型调整较复杂，并且很难应用于评分预测的任务。
+              为解决上述问题提出了一种基于提示学习的个性化推荐算法。
             </p>
             <div class="mt-2">
               <span
@@ -26,13 +39,13 @@
                 class="inline-flex items-center gap-x-1.5 rounded-full px-2 py-1 text-xs font-medium text-gray-900 ring-1 ring-inset ring-gray-200"
               >
                 <svg
-                  class="h-1.5 w-1.5 fill-orange-500"
+                  class="h-1.5 w-1.5 fill-green-500"
                   viewBox="0 0 6 6"
                   aria-hidden="true"
                 >
                   <circle cx="3" cy="3" r="3" />
                 </svg>
-                开发中
+                研究结项
               </span>
             </div>
 
@@ -58,7 +71,7 @@
             </dl>
             <span class="mt-8 isolate inline-flex rounded-md shadow-sm">
               <a
-                href="https://github.com/mojing122/MoJingProfile"
+                href="https://github.com/mojing122/PromptLearningRecommendation"
                 type="button"
                 target="_blank"
                 class="relative inline-flex items-center rounded-l-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 ring-1 ring-inset ring-gray-300 hover:bg-gray-50 focus:z-10"
@@ -82,7 +95,7 @@
               </a>
 
               <a
-                href="https://gitee.com/sha-zhiqing/MoJingProfile"
+                href="https://gitee.com/sha-zhiqing/PromptLearningRecommendation"
                 type="button"
                 target="_blank"
                 class="relative -ml-px inline-flex items-center rounded-r-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 ring-1 ring-inset ring-gray-300 hover:bg-gray-50 focus:z-10"
@@ -108,42 +121,22 @@
             </span>
           </div>
         </div>
-        <img
-          src="/src/assets/image/homePage/MojingProfile.jpg"
-          alt="Product screenshot"
-          class="w-[30rem] max-w-[100%] lg:max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]"
-          width="2432"
-          height="1442"
-        />
+        <div class="w-full mr-0">
+          <img
+            src="/src/assets/image/homePage/MojingProfile.jpg"
+            alt="Product screenshot"
+            class="w-[30rem] max-w-[100%] rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] lg:hidden"
+            width="2432"
+            height="1442"
+          />
+        </div>
       </div>
     </div>
   </div>
 </template>
 
 <script setup>
-import {
-  DocumentTextIcon,
-  RocketLaunchIcon,
-  ComputerDesktopIcon,
-} from "@heroicons/vue/20/solid";
+import {} from "@heroicons/vue/20/solid";
 
-const features = [
-  {
-    name: "Vue+tailwindcss：",
-    description: "网页为纯静态页面，采用vue和tailwindcss进行开发",
-    icon: DocumentTextIcon,
-  },
-  {
-    name: "响应式设计：",
-    description:
-      "使用响应式实用程序变体来构建自适应用户界面，在各种尺寸的屏幕上都有良好的浏览体验",
-    icon: ComputerDesktopIcon,
-  },
-  {
-    name: "Vite构建：",
-    description:
-      "使用Vite构建和打包项目，实现快速启动、及时更新和更小的打包体积",
-    icon: RocketLaunchIcon,
-  },
-];
+const features = [];
 </script>

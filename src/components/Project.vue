@@ -1,11 +1,15 @@
 <template>
-  <div><ProjectHP class="text-left" /></div>
+  <div>
+    <ProjectHP class="text-left" />
+    <ProjectPL class="text-left" />
+  </div>
 </template>
 
 <script>
 import ProjectHP from "./ProjectHP.vue";
+import ProjectPL from "./ProjectPL.vue";
 export default {
-  components: { ProjectHP },
+  components: { ProjectHP, ProjectPL },
 };
 </script>
 
