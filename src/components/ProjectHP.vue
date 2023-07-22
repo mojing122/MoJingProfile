@@ -129,7 +129,7 @@ import {
 
 const features = [
   {
-    name: "Vue+tailwindcss：",
+    name: "Vue + tailwindcss：",
     description: "网页为纯静态页面，采用vue和tailwindcss进行开发",
     icon: DocumentTextIcon,
   },
