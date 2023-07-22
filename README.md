@@ -42,13 +42,13 @@ npm run build
 
 ### 大屏效果：
 
-![image-20230721232924267](home-page\image-20230721232924267.png)
+![image-20230721232924267](home-page/image-20230721232924267.png)
 
-![image-20230721233017650](home-page\image-20230721233017650.png)
+![image-20230721233017650](home-page/image-20230721233017650.png)
 
-![image-20230721233101176](home-page\image-20230721233101176.png)
+![image-20230721233101176](home-page/image-20230721233101176.png)
 
-![image-20230721233124880](home-page\image-20230721233124880.png)
+![image-20230721233124880](home-page/image-20230721233124880.png)
 
 ### 小屏效果
 
@@ -72,6 +72,4 @@ Copyright [2023] [Sha Zhiqing]
 
 ## About me
 
-
-
-<img src="home-page\logo.png" alt="logo" style="zoom:15%;" />MoJing 人工智能专业大三本科生
+MoJing 人工智能专业大三本科生
