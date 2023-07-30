@@ -154,7 +154,7 @@ const navigation = [
   { name: "欢迎", href: "#hello", current: true },
   { name: "个人简介", href: "#profile", current: false },
   { name: "项目概览", href: "#project", current: false },
-  { name: "最近发表", href: "#", current: false },
+  { name: "最近发表", href: "#articles", current: false },
 ];
 
 const handleClick = (selector) => {

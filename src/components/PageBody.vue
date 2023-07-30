@@ -3,15 +3,15 @@
     <Hello id="hello" />
     <Profile id="profile" />
     <Project id="project" />
-    <div class="h-[2000px]"></div>
+    <Articles id="articles" class="text-left" />
+    <Footer />
   </div>
 </template>
 
-<script>
+<script setup>
 import Hello from "./Hello.vue";
 import Profile from "./Profile.vue";
 import Project from "./Project.vue";
-export default {
-  components: { Hello, Profile, Project },
-};
+import Articles from "./Articles.vue";
+import Footer from "./Footer.vue";
 </script>

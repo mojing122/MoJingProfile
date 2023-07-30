@@ -1,10 +1,7 @@
-import { createApp } from 'vue'
+import { createApp } from "vue";
 
-import './style.css'
-import Home from './Home.vue'
+import "./style.css";
+import Home from "./Home.vue";
+import axios from "axios";
 
-createApp(Home).mount('#home')
-
-
-
-
+createApp(Home).provide("$axios", axios).mount("#home");

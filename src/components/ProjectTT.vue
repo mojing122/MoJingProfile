@@ -58,7 +58,7 @@
             </dl>
             <span class="mt-8 isolate inline-flex rounded-md shadow-sm">
               <a
-                href="https://github.com/mojing122/MoJingProfile"
+                href="https://github.com/mojing122/mojing-tiktok-clone-nuxt"
                 type="button"
                 target="_blank"
                 class="relative inline-flex items-center rounded-l-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 ring-1 ring-inset ring-gray-300 hover:bg-gray-50 focus:z-10"
@@ -82,7 +82,7 @@
               </a>
 
               <a
-                href="https://gitee.com/sha-zhiqing/MoJingProfile"
+                href="https://gitee.com/sha-zhiqing/mojing-tiktok-clone-nuxt"
                 type="button"
                 target="_blank"
                 class="relative -ml-px inline-flex items-center rounded-r-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 ring-1 ring-inset ring-gray-300 hover:bg-gray-50 focus:z-10"
@@ -109,7 +109,7 @@
           </div>
         </div>
         <img
-          src="/src/assets/image/homePage/MojingProfile.jpg"
+          src="/src/assets/image/homePage/tiktok.jpg"
           alt="Product screenshot"
           class="w-[30rem] max-w-[100%] lg:max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]"
           width="2432"
