@@ -13,12 +13,26 @@
           >文档站</a
         >
       </div>
-      <p className="mt-6 text-slate-500 md:mt-0 md:mr-6 text-xs">
-        Copyright &copy; Sha Zhiqing . All rights reserved. |
-        <a href="https://beian.miit.gov.cn/" target="_blank"
-          >苏ICP备2023024060号-1</a
-        >
-      </p>
+      <div
+        class="text-slate-500 md:mt-0 md:mr-6 text-xs content-center items-center mt-4"
+      >
+        <p>Copyright &copy; Sha Zhiqing . All rights reserved.</p>
+        <div class="flex flex-wrap">
+          <a
+            href="https://beian.miit.gov.cn/"
+            target="_blank"
+            class="mr-0 mt-1 w-full md:w-auto md:mr-4"
+            >苏ICP备2023024060号-1</a
+          >
+          <a
+            target="_blank"
+            href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=32128102010312"
+            class="flex mt-1 mx-auto pr-2 md:pr-0"
+            ><img src="/public/beian.png" class="h-[16px]" />
+            <p>苏公网安备 32128102010312号</p></a
+          >
+        </div>
+      </div>
     </div>
   </div>
 </template>
