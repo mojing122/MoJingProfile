@@ -225,12 +225,12 @@
             <div class="flex place-content-center mx-auto items-center">
               <img
                 class="max-h-12 w-auto"
-                src="/src/assets/image/homePage/flask.svg"
+                src="/src/assets/image/homePage/spring-boot.png"
                 alt="Transistor"
                 width="158"
                 height="48"
               />
-              <p class="text-xl font-semibold mx-2">Flask</p>
+              <p class="text-xl font-semibold mx-2">SpringBoot</p>
             </div>
           </div>
 
