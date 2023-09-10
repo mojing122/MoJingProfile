@@ -28,7 +28,7 @@
             target="_blank"
             href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=32128102010312"
             class="flex mt-1 mx-auto pr-2 md:pr-0"
-            ><img src="/public/beian.png" class="h-[16px]" />
+            ><img src="/beian.png" class="h-[16px]" />
             <p>苏公网安备 32128102010312号</p></a
           >
         </div>

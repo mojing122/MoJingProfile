@@ -3,6 +3,7 @@
     <ProjectHP class="text-left" />
     <ProjectPL class="text-left" />
     <ProjectTT class="text-left" />
+    <ProjectMM class="text-left" />
     <div
       class="w-[80%] divide-y divide-gray-200 overflow-hidden rounded-lg bg-gray-200 shadow sm:grid sm:grid-cols-2 sm:gap-px sm:divide-y-0 mx-auto my-6"
     >
@@ -68,6 +69,7 @@
 import ProjectHP from "./ProjectHP.vue";
 import ProjectPL from "./ProjectPL.vue";
 import ProjectTT from "./ProjectTT.vue";
+import ProjectMM from "./ProjectMM.vue";
 import { elseProjects } from "../javascript/data.js";
 </script>
 
